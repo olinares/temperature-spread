@@ -35,5 +35,6 @@ class ArrayDataAnalysis
     @data.each { |x| new_array_one << [x[1],x[2]] }
     average_temp = new_array_one.map { |x,y| ((x + y)/2).to_f }
 
+
   end
 end

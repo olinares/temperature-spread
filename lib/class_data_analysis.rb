@@ -45,4 +45,5 @@ class ClassDataAnalysis
     average_temp = new_array.map { |x,y| ((x + y)/2).to_f }
   end
 
+
 end
